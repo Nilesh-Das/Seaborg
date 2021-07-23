@@ -10,7 +10,7 @@ Some of the key features include:
 * Follow/Unfollow user profile
 
 ## Live Demo
-[Seaborg Social App](https://seaborg.netlifly.app/)
+[Seaborg Social App](https://seaborg.netlify.app/)
 
 ![Demo](/demo.gif)
 
