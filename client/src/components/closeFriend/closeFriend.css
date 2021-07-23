@@ -1,0 +1,25 @@
+.sidebarFriend {
+	display: flex;
+	align-items: center;
+	padding: 0.4rem;
+	border-radius: 0.3rem;
+	cursor: pointer;
+}
+
+.sidebarFriend:hover {
+	background-color: lightgray;
+}
+
+.sidebarFriendImg {
+	height: 2.5rem;
+	width: 2.5rem;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 0.7rem;
+}
+
+.sidebarFriendName {
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+}
