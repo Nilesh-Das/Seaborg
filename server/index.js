@@ -6,7 +6,6 @@ const morgan = require('morgan');
 const multer = require("multer");
 const path = require("path");
 const cors = require('cors');
-//kill
 const socketio = require('socket.io');
 const http = require('http');
 
@@ -20,11 +19,10 @@ const messageRoute = require("./routes/messages");
 // app config
 const app = express();
 
-// kalakaribegin
 const server = http.createServer(app);
 const corsOptions={
   cors: true,
-  origins:["http://localhost:3000"],
+  origins:["https://seaborg.netlify.app"],
 }
 const io = socketio(server, corsOptions);
 let users = [];
@@ -71,17 +69,16 @@ io.on("connection", (socket) => {
     io.emit("getUsers", users);
   })
 })
-// kalakariend
 
 dotenv.config();
 const PORT = process.env.PORT || 5000;
 
 // connect to mongodb
 mongoose.connect(process.env.MONGO_URL, {
-	useNewUrlParser: true, 
-	useUnifiedTopology: true,
-	useCreateIndex: true,
-	useFindAndModify: false
+  useNewUrlParser: true, 
+  useUnifiedTopology: true,
+  useCreateIndex: true,
+  useFindAndModify: false
 })
 .then(console.log('Connected to MongoDB'))
 .catch((err) => console.log(err));
