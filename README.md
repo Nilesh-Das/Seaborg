@@ -12,7 +12,8 @@ Some of the key features include:
 ## Live Demo
 [Seaborg Social App](https://seaborg.netlify.app/)
 
-![Demo](/demo.gif)
+![Demo1](demo1.gif)
+![Demo2](demo2.gif)
 
 ## Developing
 - Clone this repository
