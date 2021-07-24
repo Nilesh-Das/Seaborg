@@ -13,6 +13,8 @@ Some of the key features include:
 [Seaborg Social App](https://seaborg.netlify.app/)
 
 ![Demo1](../demo1.gif)
+
+## Chat App
 ![Demo2](../demo2.gif)
 
 ## Developing
