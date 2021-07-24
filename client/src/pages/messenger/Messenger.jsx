@@ -21,7 +21,7 @@ export default function Messenger() {
   const scrollRef = useRef();
 
   useEffect(() => {
-    socket.current = io("wss://seaborg-api.herokuapp.com");
+    socket.current = io("https://seaborg-api.herokuapp.com");
     socket.current.on("getMessage", (data) => {
       setArrivalMessage({
         senderProfile: data.senderProfile,//
