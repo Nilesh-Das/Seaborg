@@ -42,5 +42,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://seaborg-api.herokuapp.com/api/"
+  "proxy": "https://seaborg-api.herokuapp.com"
 }
